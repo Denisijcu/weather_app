@@ -1,0 +1,36 @@
+body {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+body * {
+  margin-bottom: 5vh;
+}
+
+.icon {
+  min-width: 300px;
+  max-width: 300px;
+}
+
+.container {
+  margin: 15px;
+  background-color: aquamarine;
+  padding: 25px;
+}
+
+.section-map {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 200px;
+}
+
+#googlemap {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style/main.css">
+  <title>Weather App</title>
+</head>
+
+<body>
+
+  <h1 class="cityTitle">This is where the city goes</h1>
+  <input type="text" class="zip">
+  <h1>Weather</h1>
+  <div class="weather">This is where the weather should go</div>
+  <img src="" class="icon" alt="This is where the logo should go">
+  <h1>Temperature</h1>
+  <div>
+    <span class="temp">This is where the temperature will go</span>
+    <span class="deg"> &deg; F</span>
+  </div>
+  <!-- Convert to C -->
+  <button class="convert">Convert to C</button>
+  <h1>Humidity</h1>
+  <div>
+    <span class="humid">This is where the humidity will go</span>
+    <span>%</span>
+  </div>
+
+
+  <!--Section Map-->
+  <section id="map" class="section section-map scrollspy">
+    <div class="row">
+      <div class="col s12 m6">
+        <div id="googlemap"></div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+
+  <script src="https://maps.googleapis.com/maps/api/js"></script>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
